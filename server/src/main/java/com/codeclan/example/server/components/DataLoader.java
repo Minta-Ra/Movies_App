@@ -135,7 +135,7 @@ public class DataLoader implements ApplicationRunner  {
 
 
         // Users
-        User user1 = new User("FionaG", "Fiona", "Graham", "+447366258836", "fiona.g@gmail.com", "888");
+        User user1 = new User("FionaG", "Fiona", "Graham", "+447366258836", "example@example.com", "888");
         user1.addMovieToFavourites(movie1);
 
         user1.addMovieToFavourites(movie2);

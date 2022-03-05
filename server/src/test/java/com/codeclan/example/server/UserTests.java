@@ -19,7 +19,7 @@ public class UserTests {
 
     @Before
     public void before() {
-        user1 = new User("FionaG", "Fiona", "Graham", "+447366258836", "fiona.g@gmail.com", "888");
+        user1 = new User("FionaG", "Fiona", "Graham", "+447366258836", "fionag.g28@gmail.com", "888");
 
         action = new Genre(28, "Action");
         adventure = new Genre(12, "Adventure");
