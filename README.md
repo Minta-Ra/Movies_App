@@ -2,11 +2,11 @@
 
 ### Description:
 Mobile movie application group project that was built using React Native and Expo front end and Java backend. This app allows users to add movies that they have seen to their favorites and movies that they want to watch can be added to their watchlist under their profile. Users can also get movie recommendations according to users' saved movies in favorites. Testing was implemented using Unit and Spring Boot tests.
-
 #
-| This project was created using: |
-| :------------------------------ |
+
+### This project was created using: 
 | Back-end | Front-end |
+| :------- | :-------- |
 | Java | React Native |
 | Spring (Spring Web, Spring Boot) | Expo |
 | Spring Data JPA |
