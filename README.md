@@ -1,13 +1,18 @@
-Movies app project
-
-### Project title:
-***
+# Movie Time
 
 ### Description:
-React Native App that allows users to add movies they have seen and want to see to their profile and get recommendations
+Mobile movie application group project that was built using React Native and Expo front end and Java backend. This app allows users to add movies that they have seen to their favorites and movies that they want to watch can be added to their watchlist under their profile. Users can also get movie recommendations according to users' saved movies in favorites. Testing was implemented using Unit and Spring Boot tests.
 
-### Why:
-Learning React Native would give us a wider knowledge of frameworks, also it gives us an opportunity to start working on mobile applications.
+#
+| This project was created using: |
+| :------------------------------ |
+| Back-end | Front-end |
+| Java | React Native |
+| Spring (Spring Web, Spring Boot) | Expo |
+| Spring Data JPA |
+| H2 Database |
+| Unit Test |
+
 
 ### MVP Acceptance Criteria:
 * View a list of popular movies
@@ -15,7 +20,7 @@ Learning React Native would give us a wider knowledge of frameworks, also it giv
 * View movie information
 * Add/remove a movie to/from my watchlist
 * Add/remove a movie to/from my favourites
-* View/edit user information
+* View/edit user's information
 
 ### Potential Extensions:
 * User to be able to create an account
@@ -29,22 +34,17 @@ Learning React Native would give us a wider knowledge of frameworks, also it giv
 * Include TV shows
 * TV show has seasons and episodes
 
-### Risks:
+### Undertaken and tackled risks:
 Learning React Native framework might take time and add extra complexity.
 
-### Exclusions:
-Does not need to run on a web browser
-
-### Prerequisites:
-Setting up a React Native Expo
-
-### Instructor Sign Off:
-### Sign Off Date:
-
-
-
-On backend side:
-### `run java application`
-
-On client side:
-### `npm start`
+### To try this application:
+Install on your machine expo using terminal `npm install --global expo-cli`
+Open /server using intelliJ IDE
+Run 'ServerApplication'
+Open /client using Visual Studio Code
+In /services create a new file "local_ip.js" and write `export const ip = "{Your own IPv4 Address}";` (Needed so your phone knows to connect to your computer's localhost)
+In /services create a new file "apikey.js" and write `export const apikey = "{Your own Api Key}";`
+In /client root folder run `npm install`
+Then from /client in terminal run `expo start`
+Follow the terminal suggestions to open the simulator
+Use login details, email: example@example.com, password: 888
